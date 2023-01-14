@@ -1,5 +1,5 @@
 # A very minimal hdfs server for integration testing rclone
-FROM debian:bullseye-20211011
+FROM debian:bullseye-20221219
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends openjdk-8-jdk \
